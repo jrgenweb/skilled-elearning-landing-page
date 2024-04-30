@@ -1,0 +1,20 @@
+@use "../abstracts/" as *;
+.courses {
+    @include mq("sm") {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 58px;
+
+        .card {
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    @include mq("md") {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+    }
+}

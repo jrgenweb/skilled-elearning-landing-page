@@ -1,0 +1,13 @@
+@use "../abstracts/" as *;
+.nav {
+    padding-block: $container-padding-sm-x;
+
+    img {
+        height: 22px;
+    }
+    @include mq("lg") {
+        img {
+            height: unset;
+        }
+    }
+}

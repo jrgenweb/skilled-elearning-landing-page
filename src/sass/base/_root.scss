@@ -1,0 +1,24 @@
+@use "../abstracts" as *;
+
+:root {
+  @each $key, $value in $font-families {
+    --ff-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $font-sizes {
+    --fs-#{$key}: #{$value};
+  }
+
+  @each $key, $value in $font-weights {
+    --fw-#{$key}: #{$value};
+  }
+}
+:root {
+  --clr-bg-primary: #{$clr-white};
+  --clr-text-primary: #{$clr-gray};
+  --clr-text-secondary: #{$clr-black};
+  --clr-text-white: #{$clr-white};
+  --clr-link-primary: #{$clr-pink};
+  --clr-link-primary-hover: #{$clr-pink};
+  --clr-card-bg: #{$clr-white};
+}

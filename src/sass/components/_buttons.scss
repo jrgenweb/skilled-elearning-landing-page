@@ -1,0 +1,34 @@
+@use "../abstracts" as *;
+
+.btn {
+    padding: 11px 24px;
+    border-radius: 28px;
+    border: 0;
+    cursor: pointer;
+    color: $clr-white;
+    font-weight: var(--fw-bold);
+}
+
+.btn-default {
+    background: $clr-black;
+
+    &:hover {
+        background: #666ca3;
+    }
+}
+
+.btn-primary {
+    background: $bg-gradient-primary;
+    padding: 15px 36px;
+    &:hover {
+        background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)), $bg-gradient-primary;
+    }
+}
+
+.btn-secondary {
+    background: $bg-gradient-secondary;
+
+    &:hover {
+        background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)), $bg-gradient-secondary;
+    }
+}

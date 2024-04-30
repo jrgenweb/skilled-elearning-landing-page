@@ -1,0 +1,39 @@
+@use "../abstracts" as *;
+.card {
+    background-color: var(--clr-card-bg);
+
+    padding: $card-padding-x;
+    border-radius: 10px;
+    position: relative;
+    img {
+        position: absolute;
+        top: -$card-padding-x;
+    }
+
+    :not(img) {
+        display: block;
+        margin-top: 1rem;
+    }
+    a {
+        color: var(--clr-link-primary);
+        text-decoration: none;
+        font-weight: var(--fw-bold);
+
+        font-size: 18px;
+        &:hover {
+            color: var(--clr-link-primary-hover);
+        }
+    }
+}
+
+.card:not(:first-child) {
+    margin-top: calc(28px + 1rem);
+}
+
+.bg-gradient {
+    background: $bg-gradient-primary;
+
+    h2 {
+        color: var(--clr-text-white);
+    }
+}
