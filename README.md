@@ -1,6 +1,6 @@
 # Frontend Mentor - Skilled e-learning landing page solution
 
-This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![https://jrgenweb.github.io/skilled-elearning-page/screenshot.webp](https://jrgenweb.github.io/skilled-elearning-page/screenshot.webp)
+![https://jrgenweb.github.io/skilled-elearning-landing-page/screenshot.webp](https://jrgenweb.github.io/skilled-elearning-landing-page/screenshot.webp)
 
 ### Links
 
-- Solution URL: [https://jrgenweb.github.io/skilled-elearning-page](https://jrgenweb.github.io/skilled-elearning-page)
-- Live Site URL: [https://github.com/jrgenweb/skilled-elearning-page](https://github.com/jrgenweb/skilled-elearning-page)
+- Solution URL: [https://jrgenweb.github.io/skilled-elearning-landing-page](https://jrgenweb.github.io/skilled-elearning-landing-page)
+- Live Site URL: [https://github.com/jrgenweb/skilled-elearning-landing-page](https://github.com/jrgenweb/skilled-elearning-landing-page)
 
 ## My process
 
